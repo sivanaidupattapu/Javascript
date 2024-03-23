@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script>
+
+        var num = +prompt('enter val');
+        var rem;
+        var sum=0;
+        var rev=0;
+        while(num)
+        {
+            rem=num%10;
+            sum=sum*10+rem;
+            num=parseInt(num/10)
+        } 
+        console.log(sum);
+        while(sum)
+        {
+            rem=sum%10;
+            rev=rev*10+rem;
+            sum=parseInt(sum/10);
+        }
+        console.log(rev);
+       
+    </Script>
+</head>
+<body>
+    
+</body>
+</html>

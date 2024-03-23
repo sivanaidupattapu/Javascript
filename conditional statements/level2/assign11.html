@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        //Write a program to print factors of 24 using while loop (factors of 24 are 1,2,3,4,6,8,12,24)
+
+        var a = +prompt('enter a value'); // inilization
+        var i = 1;
+        var c=0;
+
+        while (i <= a) {             // condition
+            if (a % i == 0) {
+                console.log(i)
+               c=c+1; 
+            }
+            i++;                   // modification
+        }
+        console.log('count'+'='+c) 
+        // i=1 then 1<=a if a value =4  1<=4 condition true
+        // 4%1==0 then 1 after increments i++ 1+1=2
+        // i=2 then 2<=4 =2
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

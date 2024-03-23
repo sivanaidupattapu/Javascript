@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Write a program to take marks of three subjects and print the grade of student
+
+        var english, hindi, maths, total, rem;
+
+        english = +prompt("Enter marks of eng");
+        hindi = +prompt("Enter marks of hin");
+        maths = +prompt("Enter marks of math");
+
+        total = (english + hindi + maths);
+        rem = (total / 300) * 100;
+
+        if (rem >= 75) {
+            console.log("A");
+        }
+        else
+            if (rem >= 60)
+                console.log("B");
+            else
+                if (rem >= 50)
+                    console.log("c");
+                else
+                    console.log("d");
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

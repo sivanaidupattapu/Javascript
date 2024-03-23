@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        //Write a program to print the given three numbers in descending order
+
+        var a = +prompt("first value");
+        var b = +prompt("second value");
+        var c = +prompt('third value');
+
+        if (a > b) {
+            if (a > c)
+                if (b > c) console.log(a, b, c);
+                else console.log(a, c, b);
+            else
+                if (c > b) console.log(c, a, b);
+        }
+        else
+            if (b > c)
+                if (c > a) console.log(b, c, a);
+                else console.log(b, a, c);
+            else
+                if (c > a) console.log(c, b, a);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
